@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>To-Do Avançado</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Lista de Tarefas</h1>
+
+<input type="text" id="tarefa">
+
+<select id="prioridade">
+    <option>Alta</option>
+    <option>Média</option>
+    <option>Baixa</option>
+</select>
+
+<button onclick="adicionarTarefa()">
+Adicionar
+</button>
+
+<hr>
+
+<select id="filtro" onchange="listarTarefas()">
+    <option value="todas">Todas</option>
+    <option value="pendentes">Pendentes</option>
+    <option value="concluidas">Concluídas</option>
+</select>
+
+<ul id="lista"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
