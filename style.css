@@ -1,0 +1,21 @@
+body{
+    font-family: Arial;
+    padding:20px;
+}
+
+.concluida{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.alta{
+    color:red;
+}
+
+.media{
+    color:orange;
+}
+
+.baixa{
+    color:green;
+}
